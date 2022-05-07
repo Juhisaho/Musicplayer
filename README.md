@@ -1,11 +1,3 @@
-# Audio Player Using React Native (Expo)
+Mobiiliohjelmoinnin kurssin päättötyö. Musiikkisoitin, joka hakee laitteelta kaikki musiikkitiedostot ja listaa ne soittolistaksi. Soittolistalta voit soittaa ja vaihdella kappaileita.
 
-This is the complete audio player app built with Expo React Native. This is the project created for YouTube tutorial by [non-degree-programmer](https://www.youtube.com/channel/UCiTUxayvzwCn9qStZYK07zg).
-
-This app is made for reading local audio files from your device and play them inside it.
-
-## Some of look and feel this audio player app.
-
-![Audio Player](./images/player-image.jpg)
-
-clone or download this project and do npm install, you can use expo app on android or ios to run this project.
+Projektissa tärkeimpinä käytettyjä komponentteja ovat media-av, expo-media-library ja async-storage. Media-av tuo soittimen toiminnalisuudet sovellukseen, media-library hakee kappaleet, listaa ne ja tuo kappaleiden tiedot ja async-storage tarjoaa ominaisuudet datan säilyttämiseen ja muokkaamiseen, kuten tiedon kappaleiden soittotiedot.
